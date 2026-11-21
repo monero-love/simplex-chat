@@ -30,3 +30,7 @@ The companion development branch now displays SimpleX claims as **Not checked**,
 No SimpleX core change is needed for this flow. See [build, preview and validation instructions](https://github.com/monero-love/keyoxide-web/tree/work/simplex-address-verifier/docs/simplex-verifier.md).
 
 The companion release candidate pins patched OpenPGP and WebSocket dependencies, bounds transport input and queues, and uses private, durable one-use state with sensitive-record deletion. The two-disposable-profile live test was rerun on 2026-11-21. See its release audit for supported runtime and container checks. This branch still makes no SimpleX engine changes.
+
+## Captured demo output
+
+See the [offline demo and complete test output](https://github.com/monero-love/keyoxide-web/blob/work/simplex-address-verifier/experiments/simplex-verifier/demo/README.md) for a sanitized successful verifier run and 82 passing tests. The demo uses mock delivery and does not prove a live chat exchange. The earlier two-disposable-profile live test is documented separately in that report.
